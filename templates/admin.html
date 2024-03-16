@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class='bedolagi'>
-      <div class='caption'>Создать товар</div>
+      <div class='caption'>Добавить товар</div>
       <div class="input-group mb-3">
         <span class="input-group-text" >Название товара</span>
         <input type="text" class="form-control" id="naimenovanie" placeholder="Введите название" aria-label="Username" aria-describedby="basic-addon1">
@@ -18,15 +18,20 @@
         </div>
       </div>
       <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Категория товара</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Выберите категорию</option>
+          <option value="1">А</option>
+          <option value="2">Б</option>
+          <option value="3">В</option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
         <span class="input-group-text" >Стоимость товара</span>
         <input type="text" class="form-control" id="cena" placeholder="Введите цену" aria-label="Username" aria-describedby="basic-addon1">
         <div class="invalid-feedback">
           Поле не должно быть пустым
         </div>
-      <div class="input-group mb-3">
-        <input type="file" class="form-control" id="inputGroupFile02">
-        <label class="input-group-text" for="inputGroupFile02">Upload</label>
-      </div>
       </div>
       <div class="input-group mb-3">
         <span class="input-group-text" >Описание товара</span>
@@ -34,6 +39,10 @@
         <div class="invalid-feedback">
           Поле не должно быть пустым
         </div>
+      </div>
+      <div class="input-group mb-3">
+        <input type="file" class="form-control" id="inputGroupFile02">
+        <label class="input-group-text" for="inputGroupFile02">Upload</label>
       </div>
     </div>
   </body>
