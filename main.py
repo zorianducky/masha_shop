@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.secret_key='1581'
 #------------------function-------------------
 @app.before_request
-def connection():
+def connection():1
     con=mysql.connector.connect(
         host='92.53.96.11',
         database='sch688_etobaza',
