@@ -62,7 +62,7 @@ def ajax_rega():
 
 @app.route("/logout")
 def logout():
-    session,clear()
+    session.clear()
     return redirect('/login')
     
 @app.route("/ajax/login",methods=["POST"])
