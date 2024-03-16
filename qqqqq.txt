@@ -1,0 +1,1 @@
+INSERT INTO `users`(`sUserName`, `sUserLogin`, `sUserPassword`, `sUserPhone`, `sUserMail`, `iUserStatus`) VALUES (%s,%s,%s,%s,%s,%s)

@@ -1,0 +1,42 @@
+.bedolagi{
+ 	width: 600px;
+ 	background-color: #B0E0E6;
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ 	margin: auto;
+ 	margin-top: 50px;
+ 	padding: 30px;
+ 	border-radius: 15px;
+}
+.caption{
+ 	text-align: center;
+ 	font-size: 40px;
+ 	margin-bottom: 20px;
+}
+.input-group-text{
+ 	width: 30%;
+}
+.link_{
+ 	float: right;
+}
+.my_btn{
+	margin-top: 40px;
+}
+.error{
+	border: 1px red solid;
+}
+#akk{
+	height: 38px;
+}
+#sess{
+	padding: 7px;
+	display: inline-block;
+}
+#basket{
+	font-size: 25px;
+	display: inline-block;
+	float: right;
+}
+#exit{
+	display: inline-block;
+	float: right;
+}
